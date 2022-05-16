@@ -5,6 +5,6 @@ const SLICE_NAME = "posts";
 const postsSlice = generateTableSlice(SLICE_NAME);
 const { getData } = generateTableActions(SLICE_NAME);
 
-export const { resetRows, populateRows } = postsSlice.actions;
+export const { resetRows, populateRows, fetchError } = postsSlice.actions;
 export { getData };
 export default postsSlice.reducer;

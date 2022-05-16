@@ -1,0 +1,6 @@
+.MuiTableHead-root .MuiTableCell-root {
+  font-weight: bold;
+}
+.MuiTableRow-root .MuiTableCell-root:first-child {
+  width: 60px;
+}
