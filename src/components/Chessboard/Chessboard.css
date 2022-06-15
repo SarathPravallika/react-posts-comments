@@ -1,0 +1,46 @@
+#board {
+  display: flex;
+}
+.information {
+  padding: 1rem;
+}
+.chess-board {
+  padding: 1rem;
+}
+.chess-board__row {
+  display: flex;
+}
+.chess-board__cell {
+  border: 1px solid black;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.chess-board__cell--is-black {
+  background-color: black;
+}
+.chess-board__cell--is-white {
+  background-color: white;
+}
+.chess-board__cell--startpos-knight {
+  background-color: blue;
+}
+.chess-board__cell--endpos-knight {
+  background-color: yellow;
+}
+.instructions {
+  padding: 1rem 0;
+}
+.user-message {
+  padding-top: 1rem;
+  font-size: large;
+}
+.user-message--is-valid {
+  color: green;
+}
+.user-message--is-invalid {
+  color: red;
+}
