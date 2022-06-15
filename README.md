@@ -1,6 +1,6 @@
 # react-posts-comments
 
-A sample react based application for displaying posts &amp; comments
+A sample react based application to find out whether the positon of knight on chessboard is valid or not
 
 ## Steps to execute
 
