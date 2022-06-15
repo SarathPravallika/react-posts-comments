@@ -11,4 +11,4 @@ A sample react based application to find out whether the positon of knight on ch
 
 ## Sample screenshot of application
 
-![plot](./screenshot.jpg)
+![plot](./screenshot.png)
